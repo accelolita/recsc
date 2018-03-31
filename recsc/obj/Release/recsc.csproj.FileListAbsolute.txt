@@ -1,0 +1,11 @@
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Release\recsc.exe.config
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Release\recsc.exe
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Release\recsc.pdb
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Release\se-NO\recsc.resources.dll
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.Form1.resources
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.Properties.Resources.resources
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.Form1.se-NO.resources
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.csproj.GenerateResource.Cache
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\se-NO\recsc.resources.dll
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.exe
+D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.pdb

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recsc", "recsc\recsc.csproj", "{B2C27C4B-03B5-429B-AB80-4E57D5E80EDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AE451B4-19E7-4615-B494-7DEF1CD9FD7A}"
+	ProjectSection(SolutionItems) = preProject
+		Schedule.cs = Schedule.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C27C4B-03B5-429B-AB80-4E57D5E80EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C27C4B-03B5-429B-AB80-4E57D5E80EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C27C4B-03B5-429B-AB80-4E57D5E80EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C27C4B-03B5-429B-AB80-4E57D5E80EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
