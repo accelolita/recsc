@@ -53,6 +53,8 @@
             this.nfiRecsec = new System.Windows.Forms.NotifyIcon(this.components);
             this.recSpanPicker = new System.Windows.Forms.DateTimePicker();
             this.roadButton = new System.Windows.Forms.Button();
+            this.btnMute = new System.Windows.Forms.Button();
+            this.lbNextTime = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSc)).BeginInit();
             this.SuspendLayout();
             // 
@@ -266,10 +268,23 @@
             this.roadButton.UseVisualStyleBackColor = true;
             this.roadButton.Click += new System.EventHandler(this.roadButton_Click);
             // 
+            // btnMute
+            // 
+            resources.ApplyResources(this.btnMute, "btnMute");
+            this.btnMute.Name = "btnMute";
+            this.btnMute.UseVisualStyleBackColor = true;
+            this.btnMute.Click += new System.EventHandler(this.btnMute_Click);
+            // 
+            // lbNextTime
+            // 
+            resources.ApplyResources(this.lbNextTime, "lbNextTime");
+            this.lbNextTime.Name = "lbNextTime";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnMute);
             this.Controls.Add(this.recSpanPicker);
             this.Controls.Add(this.newCh);
             this.Controls.Add(this.tbChName);
@@ -277,6 +292,7 @@
             this.Controls.Add(this.cbSycle);
             this.Controls.Add(this.lbTest);
             this.Controls.Add(this.dgvSc);
+            this.Controls.Add(this.lbNextTime);
             this.Controls.Add(this.lbTime);
             this.Controls.Add(this.dTP);
             this.Controls.Add(this.tsText);
@@ -288,6 +304,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ClientSizeChanged += new System.EventHandler(this.Form1_ClientSizeChanged);
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -319,6 +336,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn recTimeAll;
         private System.Windows.Forms.DataGridViewTextBoxColumn recSpan;
         private System.Windows.Forms.Button roadButton;
+        private System.Windows.Forms.Button btnMute;
+        private System.Windows.Forms.Label lbNextTime;
     }
 }
 
