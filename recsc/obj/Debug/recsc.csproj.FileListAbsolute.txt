@@ -47,3 +47,15 @@ D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\se-
 D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.exe
 D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.pdb
 D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.csprojAssemblyReference.cache
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\bin\Debug\recsc.exe.config
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Debug\recsc.exe
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Debug\recsc.pdb
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\bin\Debug\recsc.exe
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\bin\Debug\recsc.pdb
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\bin\Debug\se-NO\recsc.resources.dll
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Debug\recsc.csprojResolveAssemblyReference.cache
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Debug\recsc.Form1.resources
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Debug\recsc.Properties.Resources.resources
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Debug\recsc.Form1.se-NO.resources
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Debug\recsc.csproj.GenerateResource.Cache
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Debug\se-NO\recsc.resources.dll

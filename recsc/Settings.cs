@@ -14,7 +14,7 @@ namespace recsc
         public string tvtestPath;
         public string tvtestBsPath;
 
-        public List<Schedule> scList;
+        public ScheduleList scList;
 
         private Settings()
         {
@@ -55,12 +55,12 @@ namespace recsc
             return set;
         }
 
-        public void SetSettings(string tvpath,List<Schedule> sc)
+        public void SetSettings(string tvpath, ScheduleList sc)
         {
             tvtestPath = tvpath;
             scList = sc;
         }
-        public void SetSettings(string tvpath, string bspath, List<Schedule> sc)
+        public void SetSettings(string tvpath, string bspath, ScheduleList sc)
         {
             tvtestPath = tvpath;
             tvtestBsPath = bspath;

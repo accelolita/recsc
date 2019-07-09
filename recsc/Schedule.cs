@@ -77,12 +77,12 @@ namespace recsc
 
     }
 
-    public class Schedule
+    public class Schedule : IComparable<Schedule>
     {
         public string chName { get; set; }
         public Channels channel { get; set; }
         public DayOfWeek recWeek { get; set; }
-        public DateTime recTime { get; set; }    
+        public DateTime recTime { get; set; }
         public SycleTime sycleTime { get; set; } //= SycleTime.毎週;      
         public TimeSpan recSpan { get; set; }
 
@@ -136,5 +136,14 @@ namespace recsc
             //    ".ts\" ";
         }
 
+        public int CompareTo(Schedule sc)
+        {
+            return recTime.CompareTo(sc.recTime);
+        }
+
+        public override String ToString()
+        {
+            return chName + ":" + recTime.ToString();
+        }
     }
 }

@@ -14,24 +14,26 @@ namespace recsc
     public partial class Form1 : Form
     {
         private Process fptv;//tvtestのプロセス
-        private List<Schedule> scList;
+        private ScheduleList scList;
         public Settings setting;//設定クラス作成
+        private bool dgvCellEventEnabled=true;
         public Form1()
         {
             InitializeComponent();
+            Console.OutputEncoding = Encoding.UTF8;
 
             //dt = DateTime.Now.AddMinutes(1);
             //設定ファイル読み込み
             setting=Settings.ReadSettings();
             tsText.Text = DateTime.Now.ToString("yy/MM/dd_HH:mm:ss");
             scList = setting.scList;
+            //リスト並べ替え
+            scList.Next();
+            scList.Sort();
 
             ResetGrid();
-            dTP.Value = DateTime.Now.AddDays(1);
-
-            //録画時刻でソート
-            DataGridViewColumn newColumn = dgvSc.Columns[5];
-            dgvSc.Sort(newColumn, ListSortDirection.Ascending);
+            dTP.Value = DateTime.Now.AddHours(1);
+            
 
             //タイマースタート
             timer1.Start();
@@ -41,7 +43,10 @@ namespace recsc
         }
         
         private void ResetGrid()
-        { 
+        {
+            //一時的にセル値変更イベントを無効化
+            dgvCellEventEnabled = false;
+
             int count = 0;
             foreach (var item in scList)
             {
@@ -58,6 +63,8 @@ namespace recsc
                 dgvSc[6, count].Value = item.recSpan;
                 count++;
             }
+            //セル値変更イベントを有効化
+            dgvCellEventEnabled = true;
         }
 
         private void recStart_Click(object sender, EventArgs e)
@@ -90,13 +97,14 @@ namespace recsc
         {
             Schedule delSc = null;
             DateTime now = DateTime.Now;
+            DateTime preDt = now;
             lbTime.Text = now.ToString();
             //次の予約まで
             DateTime minSc = scList.Min(time => time.recTime);
             TimeSpan remainTime = minSc.Subtract(now);
-            lbNextTime.Text = remainTime.ToString(@"'次は'hh'時間'mm'分'ss'秒後'");
+            lbNextTime.Text = remainTime.ToString(@"'次は'd'日'hh'時間'mm'分'ss'秒後'");
             //ソートフラグ
-            bool bSort = false;
+            bool sortFlag = false;
             foreach (var item in scList)
             {
                 if (now.ToString()==item.recTime.AddSeconds(-30).ToString() && //十秒前      
@@ -117,32 +125,29 @@ namespace recsc
                         item.startFlag = false;
                     }
                        
-                    Process.Start(@"nircmd.exe", "muteappvolume /"+ item.ptv.Id.ToString()+" 1");//ミュート
+                    //Process.Start(@"nircmd.exe", "muteappvolume /"+ item.ptv.Id.ToString()+" 1");//ミュート
                 }
-                if (now.CompareTo(item.recTime)==1 && item.startFlag)//日付更新
+                if (now.CompareTo(item.recTime)>0 && item.startFlag　&& dgvSc.CurrentCell.ColumnIndex != 5)//日付更新
                 {
                     switch (item.sycleTime)
                     {
                         case SycleTime.毎週:
                             item.recTime = item.recTime.AddDays(7);
+                            Console.Write(item.chName+"\n");
                             break;
                         case SycleTime.毎日:
                             item.recTime = item.recTime.AddDays(1);
                             break;
                         default:
                             break;
-                    }         
-                    if (now.CompareTo(item.recTime) == -1)
+                    } 
+                    //予約が過ぎてないか        
+                    if (now.CompareTo(item.recTime) < 0)
                     {
-                        //ソートしろ
-                        //scList.Sort((a, b) => a.recTime.CompareTo(b.recTime));
-                        bSort = true;
-                        ResetGrid();
-                        //ソート
-                        //DataGridViewColumn newColumn = dgvSc.Columns[5];
-                        //dgvSc.Sort(newColumn, ListSortDirection.Ascending);
+                        sortFlag = true;
                     }
                 }
+                //録画終了処理
                 if (now.CompareTo(item.recTime.Add(item.recSpan)) == 1 && !item.startFlag)
                 {
                     item.startFlag = true;
@@ -166,6 +171,13 @@ namespace recsc
                         delSc = item;
                     }
                 }
+                //ソートが必要か
+                if (!sortFlag && preDt.CompareTo(item.recTime)>0 && item.startFlag && dgvSc.CurrentCell.ColumnIndex != 5)
+                {
+                    sortFlag = true;
+                }
+                //前の録画日時をセット
+                preDt = item.recTime;
             }
             if (delSc!=null)
             {
@@ -173,16 +185,13 @@ namespace recsc
                 scList.Remove(delSc);
                 ResetGrid();
             }
-            if (bSort)//bSort
+            //ソート
+            if (sortFlag)
             {
-                //scList.Sort((a, b) => a.recTime.CompareTo(b.recTime));//名前がずれる
-                foreach (var item in scList)
-                {
-                    //Console.Write(item.chName);
-                }
+                scList.Sort();
                 ResetGrid();
-                bSort = false;
             }
+
         }
 
         /// <summary>
@@ -235,6 +244,9 @@ namespace recsc
 
         private void dgvSc_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
+            //GridReset中は処理しない
+            if (!dgvCellEventEnabled) return;
+
             DateTime dt;
             for (int i = 0; i < dgvSc.RowCount; i++)
             {
