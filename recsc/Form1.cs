@@ -20,7 +20,7 @@ namespace recsc
         public Form1()
         {
             InitializeComponent();
-            Console.OutputEncoding = Encoding.UTF8;
+            //Console.OutputEncoding = Encoding.UTF8;
 
             //dt = DateTime.Now.AddMinutes(1);
             //設定ファイル読み込み
@@ -154,14 +154,15 @@ namespace recsc
                     //終了処理一秒待機
                     Microsoft.VisualBasic.Interaction.AppActivate(item.ptv.Id);
                     SendKeys.Send("r");
+                    Process ptv = item.ptv;
                     await Task.Run(() =>
                     {
-                        System.Threading.Thread.Sleep(1000);
+                        //System.Threading.Thread.Sleep(1000);
                         do
                         {
-                            item.ptv.WaitForExit(100);        
-                            item.ptv.Kill();
-                        } while (!item.ptv.HasExited);//終了まで繰り返す
+                            //ptv.WaitForExit(100);        
+                            ptv.Kill();
+                        } while (!ptv.HasExited);//終了まで繰り返す
                         
                     });
                     tsText.Text = item.chName+ "終わり";
@@ -388,6 +389,10 @@ namespace recsc
 
         }
 
+        private void dgvSc_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
  

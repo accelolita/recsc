@@ -9,6 +9,7 @@ namespace recsc
 {
     public enum SycleTime {毎週,一回のみ,毎日};
     public enum Channels {NHK総合=1,Eテレ,tvk,日本テレビ,テレビ朝日,TBS,テレビ東京,フジテレビジョン,TOKYO_MX,
+        BS日テレ = 141,
         ＷＯＷＯＷプライム = 191,
         ＷＯＷＯＷライブ = 192,
         ＷＯＷＯＷシネマ = 193,
@@ -17,7 +18,8 @@ namespace recsc
         スターチャンネル３ = 202,
         ＢＳ１１イレブン = 211,
         ＢＳスカパー = 241,
-        ＡＴＸ = 333
+        ＡＴＸ = 333,
+        ディスカバリー = 340
     }
 
 
@@ -126,7 +128,7 @@ namespace recsc
 
         public string ToArgOption(string chsr ="/rch ")
         {
-            string name = DateTime.Now.ToString("yyMMdd-HHmmss") +"_"+ chName;
+            string name = chName +"_"+ DateTime.Now.ToString("yyMMdd-HHmmss");
             return " /rec " + chsr + (int)channel +
                     " /recfile \"D:\\Users\\" + Environment.UserName + "\\Videos\\" + name +
                     ".ts\" ";

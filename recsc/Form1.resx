@@ -119,10 +119,10 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="recStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 13</value>
+    <value>12, 12</value>
   </data>
   <data name="recStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>75, 23</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="recStart.TabIndex" type="System.Int32, mscorlib">
@@ -141,16 +141,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;recStart.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="btnKill.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="btnKill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 13</value>
+    <value>140, 12</value>
   </data>
   <data name="btnKill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>75, 23</value>
   </data>
   <data name="btnKill.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -168,13 +168,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnKill.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="btnTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>583, 103</value>
+    <value>583, 95</value>
   </data>
   <data name="btnTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>75, 23</value>
   </data>
   <data name="btnTest.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -192,16 +192,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnTest.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="tsText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 44</value>
+    <value>12, 41</value>
   </data>
   <data name="tsText.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="tsText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 85</value>
+    <value>203, 79</value>
   </data>
   <data name="tsText.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -216,7 +216,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tsText.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="dTP.CustomFormat" xml:space="preserve">
     <value>M/d  dddd H:mm:ss</value>
@@ -226,10 +226,10 @@
     <value>Right</value>
   </data>
   <data name="dTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>351, 134</value>
+    <value>351, 124</value>
   </data>
   <data name="dTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 20</value>
+    <value>161, 19</value>
   </data>
   <data name="dTP.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -244,7 +244,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dTP.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="lbTime.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -253,7 +253,7 @@
     <value>MS UI Gothic, 18pt</value>
   </data>
   <data name="lbTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>362, 51</value>
+    <value>362, 47</value>
   </data>
   <data name="lbTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 24</value>
@@ -274,7 +274,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbTime.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -286,7 +286,7 @@
     <value>番組名</value>
   </data>
   <data name="chName.Width" type="System.Int32, mscorlib">
-    <value>49</value>
+    <value>47</value>
   </data>
   <metadata name="chNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -295,7 +295,7 @@
     <value>ch</value>
   </data>
   <data name="chNum.Width" type="System.Int32, mscorlib">
-    <value>25</value>
+    <value>23</value>
   </data>
   <metadata name="chWeek.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -304,7 +304,7 @@
     <value>曜日</value>
   </data>
   <data name="chWeek.Width" type="System.Int32, mscorlib">
-    <value>37</value>
+    <value>35</value>
   </data>
   <metadata name="chTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -315,9 +315,6 @@
   <data name="chTime.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="chTime.Width" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
   <metadata name="sycle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -325,7 +322,7 @@
     <value>繰り返し</value>
   </data>
   <data name="sycle.Width" type="System.Int32, mscorlib">
-    <value>54</value>
+    <value>52</value>
   </data>
   <metadata name="recTimeAll.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -334,7 +331,7 @@
     <value>録画日時</value>
   </data>
   <data name="recTimeAll.Width" type="System.Int32, mscorlib">
-    <value>61</value>
+    <value>59</value>
   </data>
   <metadata name="recSpan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -346,13 +343,13 @@
     <value>60</value>
   </data>
   <data name="dgvSc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 161</value>
+    <value>12, 149</value>
   </data>
   <data name="dgvSc.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
   <data name="dgvSc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>706, 612</value>
+    <value>706, 565</value>
   </data>
   <data name="dgvSc.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -367,16 +364,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dgvSc.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="lbTest.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lbTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>286, 83</value>
+    <value>286, 77</value>
   </data>
   <data name="lbTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
+    <value>0, 12</value>
   </data>
   <data name="lbTest.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -391,7 +388,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbTest.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="cbSycle.Items" xml:space="preserve">
     <value>毎週</value>
@@ -403,10 +400,10 @@
     <value>毎日</value>
   </data>
   <data name="cbSycle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 134</value>
+    <value>267, 124</value>
   </data>
   <data name="cbSycle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 21</value>
+    <value>78, 20</value>
   </data>
   <data name="cbSycle.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -424,7 +421,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbSycle.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="cbChannel.Items" xml:space="preserve">
     <value>NHK総合</value>
@@ -480,11 +477,14 @@
   <data name="cbChannel.Items17" xml:space="preserve">
     <value>ＡＴＸ</value>
   </data>
+  <data name="cbChannel.Items18" xml:space="preserve">
+    <value>ディスカバリー</value>
+  </data>
   <data name="cbChannel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 134</value>
+    <value>171, 124</value>
   </data>
   <data name="cbChannel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 21</value>
+    <value>90, 20</value>
   </data>
   <data name="cbChannel.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -502,13 +502,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbChannel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="tbChName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 134</value>
+    <value>65, 124</value>
   </data>
   <data name="tbChName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>100, 19</value>
   </data>
   <data name="tbChName.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -523,13 +523,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbChName.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="newCh.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 132</value>
+    <value>12, 122</value>
   </data>
   <data name="newCh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 25</value>
+    <value>47, 23</value>
   </data>
   <data name="newCh.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -547,7 +547,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;newCh.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <metadata name="nfiRecsec.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>108, 17</value>
@@ -862,10 +862,10 @@
     <value>HH:mm:ss</value>
   </data>
   <data name="recSpanPicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>518, 134</value>
+    <value>518, 124</value>
   </data>
   <data name="recSpanPicker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>86, 19</value>
   </data>
   <data name="recSpanPicker.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -880,16 +880,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;recSpanPicker.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="roadButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="roadButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>583, 72</value>
+    <value>583, 66</value>
   </data>
   <data name="roadButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>75, 23</value>
   </data>
   <data name="roadButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -907,13 +907,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;roadButton.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="btnMute.Location" type="System.Drawing.Point, System.Drawing">
-    <value>246, 51</value>
+    <value>246, 47</value>
   </data>
   <data name="btnMute.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 78</value>
+    <value>99, 72</value>
   </data>
   <data name="btnMute.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -931,7 +931,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnMute.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="lbNextTime.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -943,7 +943,7 @@
     <value>NoControl</value>
   </data>
   <data name="lbNextTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>362, 83</value>
+    <value>362, 77</value>
   </data>
   <data name="lbNextTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 18</value>
@@ -964,16 +964,47 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbNextTime.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 9</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>次の文字は使えません
+￥　／　：　＊　？　”　＜　＞　｜</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>49</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>730, 787</value>
+    <value>730, 726</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1284,12 +1315,6 @@
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;nfiRecsec.Name" xml:space="preserve">
-    <value>nfiRecsec</value>
-  </data>
-  <data name="&gt;&gt;nfiRecsec.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;chName.Name" xml:space="preserve">
     <value>chName</value>
   </data>
@@ -1331,6 +1356,12 @@
   </data>
   <data name="&gt;&gt;recSpan.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nfiRecsec.Name" xml:space="preserve">
+    <value>nfiRecsec</value>
+  </data>
+  <data name="&gt;&gt;nfiRecsec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
