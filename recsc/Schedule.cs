@@ -129,7 +129,7 @@ namespace recsc
         public string ToArgOption(string chsr ="/rch ")
         {
             string name = chName +"_"+ DateTime.Now.ToString("yyMMdd-HHmmss");
-            return " /rec " + chsr + (int)channel +
+            return " /rec " + chsr + (int)channel + "/mute /min" + 
                     " /recfile \"D:\\Users\\" + Environment.UserName + "\\Videos\\" + name +
                     ".ts\" ";
             //return "/rch " + (int)channel + " /rec " +
