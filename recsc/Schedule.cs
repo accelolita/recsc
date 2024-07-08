@@ -131,7 +131,7 @@ namespace recsc
             string name = chName +"_"+ DateTime.Now.ToString("yyMMdd-HHmmss");
             return " /rec " + chsr + (int)channel + "/mute /min" +
                     //" /recfile \"D:\\Users\\" + Environment.UserName + "\\Videos\\" + name +
-                    " /recfile \"C:\\Users\\ATARASHIUNAGI\\Videos\\" + name +
+                    " /recfile \"D:\\Users\\ATARASHIUNAGI\\Videos\\" + name +
                     ".ts\" ";
 
             //return "/rch " + (int)channel + " /rec " +
