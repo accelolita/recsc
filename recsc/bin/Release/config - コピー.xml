@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tvtestPath>D:/TVTest/TVTest.exe</tvtestPath>
+  <tvtestBsPath>D:/TVTestT0/TVTest.exe</tvtestBsPath>
+  <scList>
+    <Schedule>
+      <chName>スタートゥインクルプリキュア</chName>
+      <channel>テレビ朝日</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2019-07-07T08:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>DASH!!_イッテQ! </chName>
+      <channel>日本テレビ</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2019-07-07T18:59:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>02:00:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>からかい上手の高木さん2</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2019-07-07T23:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ありふれた職業で世界最強</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Monday</recWeek>
+      <recTime>2019-07-08T23:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>手品先輩＿ソウナンですか？</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Tuesday</recWeek>
+      <recTime>2019-07-09T23:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>可愛ければ変態でも好きになってくれますか？</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2019-07-10T00:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>水曜日のダウンタウン</chName>
+      <channel>TBS</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2019-07-10T21:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>02:00:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ダンベル何キロ持てる?</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2019-07-10T23:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>異世界チート魔術師</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Thursday</recWeek>
+      <recTime>2019-07-11T01:35:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>うちの娘の為ならば、俺はもしかしたら魔王も倒せるかもしれない。</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Thursday</recWeek>
+      <recTime>2019-07-11T23:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>Dr.STONE</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Friday</recWeek>
+      <recTime>2019-07-12T22:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2019-07-13T00:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ダンジョンに出会いを求めるのは間違っているだろうか II</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2019-07-13T00:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>とある科学の一方通行</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2019-07-13T01:05:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+  </scList>
+</Settings>
