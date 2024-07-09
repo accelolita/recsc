@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <tvtestPath>D:/TVTest/TVTest.exe</tvtestPath>
-  <tvtestBsPath>D:/TVTestT0/TVTest.exe</tvtestBsPath>
+  <tvtestPath>C:/TVTest/TVTest.exe</tvtestPath>
+  <tvtestBsPath>C:/TVTestT0/TVTest.exe</tvtestBsPath>
   <scList>
     <Schedule>
       <chName>狼と香辛料 MERCHANT MEETS THE WISE WOLF</chName>
