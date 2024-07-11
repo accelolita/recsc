@@ -87,6 +87,7 @@ namespace recsc
         public DateTime recTime { get; set; }
         public SycleTime sycleTime { get; set; } //= SycleTime.毎週;      
         public TimeSpan recSpan { get; set; }
+        public static string recordPath;
 
         [System.Xml.Serialization.XmlIgnore]
         public bool startFlag = true;  

@@ -13,6 +13,7 @@ namespace recsc
 
         public string tvtestPath;
         public string tvtestBsPath;
+        public string recordPath;
 
         public ScheduleList scList;
 
