@@ -2,6 +2,7 @@
 <Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <tvtestPath>C:/TVTest/TVTest.exe</tvtestPath>
   <tvtestBsPath>C:/TVTestT0/TVTest.exe</tvtestBsPath>
+  <recordPath>D:/Users/ATARASHIUNAGI/Videos/</recordPath>
   <scList>
     <Schedule>
       <chName>狼と香辛料 MERCHANT MEETS THE WISE WOLF</chName>
@@ -22,7 +23,7 @@
       <recSpanStr>04:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>転生したらスライムだった件 第3期</chName>
+      <chName>転生したらスライムだった件 第3期<//chName>
       <channel>日本テレビ</channel>
       <recWeek>Friday</recWeek>
       <recTime>2024-06-28T23:00:00</recTime>
