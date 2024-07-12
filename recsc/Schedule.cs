@@ -87,7 +87,6 @@ namespace recsc
         public DateTime recTime { get; set; }
         public SycleTime sycleTime { get; set; } //= SycleTime.毎週;      
         public TimeSpan recSpan { get; set; }
-        public static string recordPath;
 
         [System.Xml.Serialization.XmlIgnore]
         public bool startFlag = true;  
@@ -127,12 +126,17 @@ namespace recsc
             recSpan = sp;
         }
 
-        public string ToArgOption(string chsr ="/rch ")
+        public string ToArgOption(string chsr ="/rch ", string recordPath = "D:\\Users\\ATARASHIUNAGI\\Videos\\")
         {
-            string name = chName +"_"+ DateTime.Now.ToString("yyMMdd-HHmmss");
+            //string name = chName +"_"+ DateTime.Now.ToString("yyMMdd-HHmmss");
+            //return " /rec " + chsr + (int)channel + "/mute /min" +
+            //        //" /recfile \"D:\\Users\\" + Environment.UserName + "\\Videos\\" + name +
+            //        " /recfile \"D:\\Users\\ATARASHIUNAGI\\Videos\\" + name +
+            //        ".ts\" ";
+
+            string name = chName + "_" + DateTime.Now.ToString("yyMMdd-HHmmss");
             return " /rec " + chsr + (int)channel + "/mute /min" +
-                    //" /recfile \"D:\\Users\\" + Environment.UserName + "\\Videos\\" + name +
-                    " /recfile \"D:\\Users\\ATARASHIUNAGI\\Videos\\" + name +
+                    " /recfile \"" + recordPath + name +
                     ".ts\" ";
 
             //return "/rch " + (int)channel + " /rec " +
