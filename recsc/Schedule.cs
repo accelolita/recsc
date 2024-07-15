@@ -135,7 +135,7 @@ namespace recsc
             //        ".ts\" ";
 
             string name = chName + "_" + DateTime.Now.ToString("yyMMdd-HHmmss");
-            return " /rec " + chsr + (int)channel + "/mute /min" +
+            return " /rec /nodshow " + chsr + (int)channel + "/mute /min" +
                     " /recfile \"" + recordPath + name +
                     ".ts\" ";
 

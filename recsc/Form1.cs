@@ -69,8 +69,25 @@ namespace recsc
 
         private void recStart_Click(object sender, EventArgs e)
         {
-            fptv = Process.Start(setting.tvtestPath," /rec");
-            btnKill.Enabled=true;
+            DateTime dt= DateTime.Now.AddSeconds(60);
+            TimeSpan ts = TimeSpan.FromSeconds(10);
+            Schedule sc = new Schedule(
+                "テスト",                                                //番組名
+                (Channels)Enum.Parse(typeof(Channels), cbChannel.Text),  //チャンネル
+                dt,                                              //録画時刻 
+                dt.DayOfWeek,                                    //曜日
+                ts);                                                    //録画時間
+            //録画表に追加
+            dgvSc.Rows.Add("テスト", cbChannel.Text, dt.DayOfWeek,
+                dt.ToLongTimeString(), cbSycle.Text, dt, sc.recSpan);
+            //録画リストに追加
+            scList.Add(sc);
+            //ソート
+            scList.Sort((a, b) => a.recTime.CompareTo(b.recTime));
+
+            DataGridViewColumn newColumn = dgvSc.Columns[5];
+            dgvSc.Sort(newColumn, ListSortDirection.Ascending);
+
         }
 
         private void btnKill_Click(object sender, EventArgs e)
@@ -112,7 +129,7 @@ namespace recsc
                 {
                     if ((int)item.channel<=9)//ch9以下　地デジ
                     {
-                        item.ptv = Process.Start(setting.tvtestPath,item.ToArgOption("/rch",setting.recordPath));
+                        item.ptv = Process.Start(setting.tvtestPath,item.ToArgOption("/rch ", setting.recordPath));
                         tsText.Text += item.ptv.MainWindowTitle;
                         btnKill.Enabled = true;
                         item.startFlag = false;
@@ -153,7 +170,8 @@ namespace recsc
                     item.startFlag = true;
                     //終了処理一秒待機
                     Microsoft.VisualBasic.Interaction.AppActivate(item.ptv.Id);
-                    SendKeys.Send("r");
+                    //ここでログオフ時エラー出てる　TVtest側で録画時終了の確認ダイアログを取らない設定にしている
+                    //SendKeys.Send("r"); 
                     Process ptv = item.ptv;
                     await Task.Run(() =>
                     {

@@ -122,14 +122,14 @@
     <value>12, 12</value>
   </data>
   <data name="recStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>95, 23</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="recStart.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="recStart.Text" xml:space="preserve">
-    <value>録画開始</value>
+    <value>テスト予約セット</value>
   </data>
   <data name="&gt;&gt;recStart.Name" xml:space="preserve">
     <value>recStart</value>

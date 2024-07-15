@@ -180,8 +180,8 @@
             resources.ApplyResources(this.sycle, "sycle");
             this.sycle.Items.AddRange(new object[] {
             "一回のみ",
-            "毎週",
-            "毎日"});
+            "毎日",
+            "毎週"});
             this.sycle.Name = "sycle";
             this.sycle.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.sycle.Sorted = true;
