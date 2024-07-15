@@ -77,15 +77,6 @@
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>無職転生Ⅱ ～異世界行ったら本気だす～(第2クール)</chName>
-      <channel>TOKYO_MX</channel>
-      <recWeek>Monday</recWeek>
-      <recTime>2024-07-15T00:00:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
       <chName>狼と香辛料 MERCHANT MEETS THE WISE WOLF</chName>
       <channel>テレビ東京</channel>
       <recWeek>Tuesday</recWeek>
