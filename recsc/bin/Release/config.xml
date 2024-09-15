@@ -2,49 +2,13 @@
 <Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <tvtestPath>C:/TVTest/TVTest.exe</tvtestPath>
   <tvtestBsPath>C:/TVTestT0/TVTest.exe</tvtestBsPath>
-  <recordPath>C:/Users/ATARASHIUNAGI/Videos/</recordPath>
+  <recordPath>D:/録画/</recordPath>
   <scList>
-    <Schedule>
-      <chName>水曜日のダウンタウン</chName>
-      <channel>TBS</channel>
-      <recWeek>Wednesday</recWeek>
-      <recTime>2024-07-24T19:00:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>04:25:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>【推しの子】(第2期)</chName>
-      <channel>TOKYO_MX</channel>
-      <recWeek>Wednesday</recWeek>
-      <recTime>2024-07-24T23:00:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>時々ボソッとロシア語でデレる隣のアーリャさん</chName>
-      <channel>TOKYO_MX</channel>
-      <recWeek>Wednesday</recWeek>
-      <recTime>2024-07-24T23:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>魔王学院の不適合者II～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～(2ndクール)</chName>
-      <channel>TOKYO_MX</channel>
-      <recWeek>Thursday</recWeek>
-      <recTime>2024-07-25T02:05:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
     <Schedule>
       <chName>俺は全てを【パリィ】する～逆勘違いの世界最強は冒険者になりたい～</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Friday</recWeek>
-      <recTime>2024-07-26T00:00:00</recTime>
+      <recTime>2024-08-09T00:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -53,16 +17,16 @@
       <chName>女神のカフェテラス(第2期) </chName>
       <channel>TBS</channel>
       <recWeek>Friday</recWeek>
-      <recTime>2024-07-26T00:26:00</recTime>
+      <recTime>2024-08-09T00:26:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
+      <recSpanStr>00:40:00</recSpanStr>
     </Schedule>
     <Schedule>
       <chName>転生したらスライムだった件 第3期</chName>
       <channel>日本テレビ</channel>
       <recWeek>Friday</recWeek>
-      <recTime>2024-07-26T23:00:00</recTime>
+      <recTime>2024-08-09T23:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:59:00</recSpanStr>
@@ -71,7 +35,7 @@
       <chName>異世界スーサイド・スクワッド</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Saturday</recWeek>
-      <recTime>2024-07-27T00:30:00</recTime>
+      <recTime>2024-08-10T00:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -80,7 +44,7 @@
       <chName>グレンダイザーU</chName>
       <channel>テレビ東京</channel>
       <recWeek>Saturday</recWeek>
-      <recTime>2024-07-27T01:23:00</recTime>
+      <recTime>2024-08-10T01:23:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -89,7 +53,7 @@
       <chName>この世界は不完全すぎる</chName>
       <channel>TBS</channel>
       <recWeek>Saturday</recWeek>
-      <recTime>2024-07-27T02:23:00</recTime>
+      <recTime>2024-08-10T02:23:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -98,7 +62,7 @@
       <chName>新プロジェクトX～挑戦者たち～</chName>
       <channel>NHK総合</channel>
       <recWeek>Saturday</recWeek>
-      <recTime>2024-07-27T19:30:00</recTime>
+      <recTime>2024-08-10T19:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>01:23:00</recSpanStr>
@@ -107,7 +71,7 @@
       <chName>天穂のサクナヒメ</chName>
       <channel>テレビ東京</channel>
       <recWeek>Saturday</recWeek>
-      <recTime>2024-07-27T23:00:00</recTime>
+      <recTime>2024-08-10T23:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -116,7 +80,7 @@
       <chName>負けヒロインが多すぎる！</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2024-07-28T00:30:00</recTime>
+      <recTime>2024-08-11T00:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -125,7 +89,7 @@
       <chName>ザ・ファブル</chName>
       <channel>日本テレビ</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2024-07-28T00:55:00</recTime>
+      <recTime>2024-08-11T00:55:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -134,7 +98,7 @@
       <chName>エルフさんは痩せられない</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2024-07-28T01:30:00</recTime>
+      <recTime>2024-08-11T01:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -143,7 +107,7 @@
       <chName>ひろがるスカイ！プリキュア</chName>
       <channel>テレビ朝日</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2024-07-28T08:30:00</recTime>
+      <recTime>2024-08-11T08:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -152,7 +116,7 @@
       <chName>夜桜さんちの大作戦</chName>
       <channel>TBS</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2024-07-28T17:00:00</recTime>
+      <recTime>2024-08-11T17:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -161,7 +125,7 @@
       <chName>キン肉マン 完璧超人始祖編</chName>
       <channel>TBS</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2024-07-28T23:30:00</recTime>
+      <recTime>2024-08-11T23:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:55:00</recSpanStr>
@@ -170,7 +134,7 @@
       <chName>しかのこのこのここしたんたん</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2024-07-28T23:30:00</recTime>
+      <recTime>2024-08-11T23:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -179,7 +143,7 @@
       <chName>狼と香辛料 MERCHANT MEETS THE WISE WOLF</chName>
       <channel>テレビ東京</channel>
       <recWeek>Tuesday</recWeek>
-      <recTime>2024-07-30T01:30:00</recTime>
+      <recTime>2024-08-13T01:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:40:00</recSpanStr>
@@ -188,7 +152,7 @@
       <chName>新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。</chName>
       <channel>テレビ東京</channel>
       <recWeek>Tuesday</recWeek>
-      <recTime>2024-07-30T02:00:00</recTime>
+      <recTime>2024-08-13T02:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:40:00</recSpanStr>
@@ -197,7 +161,34 @@
       <chName>僕の妻は感情がない</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Tuesday</recWeek>
-      <recTime>2024-07-30T23:00:00</recTime>
+      <recTime>2024-08-13T23:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>水曜日のダウンタウン</chName>
+      <channel>TBS</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2024-08-14T19:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>04:25:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>【推しの子】(第2期)</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2024-08-14T23:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>時々ボソッとロシア語でデレる隣のアーリャさん</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2024-08-14T23:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
