@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <tvtestPath>C:/TVTest/TVTest.exe</tvtestPath>
+  <tvtestPath>D:\TVTest-0.10.0-241019\TVTest_32bit/TVTest.exe</tvtestPath>
   <tvtestBsPath>C:/TVTestT0/TVTest.exe</tvtestBsPath>
   <recordPath>D:/録画/</recordPath>
   <scList>
