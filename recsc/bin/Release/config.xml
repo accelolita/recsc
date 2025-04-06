@@ -5,118 +5,73 @@
   <recordPath>D:/録画/</recordPath>
   <scList>
     <Schedule>
-      <chName>シャングリラ・フロンティア～クソゲーハンター、神ゲーに挑まんとす～ 2nd season</chName>
-      <channel>TBS</channel>
-      <recWeek>Sunday</recWeek>
-      <recTime>2024-12-29T17:00:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>転生貴族、鑑定スキルで成り上がる(第2期)</chName>
-      <channel>TBS</channel>
-      <recWeek>Sunday</recWeek>
-      <recTime>2024-12-29T23:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>ぷにるはかわいいスライム</chName>
-      <channel>テレビ東京</channel>
-      <recWeek>Sunday</recWeek>
-      <recTime>2024-12-29T23:45:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>MFゴースト 2nd Season</chName>
-      <channel>TOKYO_MX</channel>
-      <recWeek>Monday</recWeek>
-      <recTime>2024-12-30T00:00:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>嘆きの亡霊は引退したい</chName>
-      <channel>TBS</channel>
-      <recWeek>Tuesday</recWeek>
-      <recTime>2024-12-31T23:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>水曜日のダウンタウン</chName>
-      <channel>TBS</channel>
-      <recWeek>Wednesday</recWeek>
-      <recTime>2025-01-01T19:00:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>04:25:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>ダンダダン</chName>
-      <channel>TBS</channel>
-      <recWeek>Friday</recWeek>
-      <recTime>2025-01-03T00:26:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>株式会社マジルミエ</chName>
+      <chName>金曜ロードショー　薬屋のひとりごと 第2期</chName>
       <channel>日本テレビ</channel>
       <recWeek>Friday</recWeek>
-      <recTime>2025-01-03T23:00:00</recTime>
+      <recTime>2025-04-04T21:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
-      <recSpanStr>00:35:00</recSpanStr>
+      <recSpanStr>03:10:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>ドラゴンボールDAIMA</chName>
-      <channel>フジテレビジョン</channel>
+      <chName>ロックは淑女の嗜みでして</chName>
+      <channel>TBS</channel>
       <recWeek>Friday</recWeek>
-      <recTime>2025-01-03T23:40:00</recTime>
+      <recTime>2025-04-04T22:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>チ。―地球の運動について―</chName>
-      <channel>NHK総合</channel>
+      <chName>男女の友情は成立する？（いや、しないっ！！）</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Friday</recWeek>
+      <recTime>2025-04-04T22:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>真・侍伝 YAIBA</chName>
+      <channel>日本テレビ</channel>
       <recWeek>Saturday</recWeek>
-      <recTime>2025-01-04T23:45:00</recTime>
+      <recTime>2025-04-05T17:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
-      <recSpanStr>01:00:00</recSpanStr>
+      <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>魔王2099</chName>
+      <chName>GUILTY GEAR STRIVE: DUAL RULERS</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2025-04-05T22:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>片田舎のおっさん、剣聖になる</chName>
+      <channel>テレビ朝日</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2025-04-05T23:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ニートくノ一となぜか同棲はじめました</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2025-01-05T00:00:00</recTime>
+      <recTime>2025-04-06T01:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>らんま１／２</chName>
-      <channel>日本テレビ</channel>
-      <recWeek>Sunday</recWeek>
-      <recTime>2025-01-05T00:55:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>君は冥土様。</chName>
+      <chName>俺は星間国家の悪徳領主！</chName>
       <channel>テレビ朝日</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2025-01-05T01:30:00</recTime>
+      <recTime>2025-04-06T02:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -125,7 +80,97 @@
       <chName>ひろがるスカイ！プリキュア</chName>
       <channel>テレビ朝日</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2025-01-05T08:30:00</recTime>
+      <recTime>2025-04-06T08:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ウマ娘　シンデレラグレイ</chName>
+      <channel>TBS</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2025-04-06T16:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ウィッチウォッチ</chName>
+      <channel>TBS</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2025-04-06T17:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>増田こうすけ劇場 ギャグマンガ日和GO</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Monday</recWeek>
+      <recTime>2025-04-07T21:54:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>阿波連さんははかれない season2</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Monday</recWeek>
+      <recTime>2025-04-07T22:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>月曜から夜更かし</chName>
+      <channel>日本テレビ</channel>
+      <recWeek>Monday</recWeek>
+      <recTime>2025-04-07T22:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>01:00:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>Summer Pockets</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Monday</recWeek>
+      <recTime>2025-04-07T23:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>機動戦士Gundam GQuuuuuuX</chName>
+      <channel>日本テレビ</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2025-04-09T00:29:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>アポカリプスホテル</chName>
+      <channel>日本テレビ</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2025-04-09T01:34:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>水曜日のダウンタウン</chName>
+      <channel>TBS</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2025-04-09T22:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>01:00:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>戦隊大失格 2ndシーズン</chName>
+      <channel>TBS</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2025-04-13T23:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
