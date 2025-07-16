@@ -5,118 +5,46 @@
   <recordPath>D:/録画/</recordPath>
   <scList>
     <Schedule>
-      <chName>金曜ロードショー　薬屋のひとりごと 第2期</chName>
-      <channel>日本テレビ</channel>
-      <recWeek>Friday</recWeek>
-      <recTime>2025-04-04T21:00:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>03:10:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>ロックは淑女の嗜みでして</chName>
-      <channel>TBS</channel>
-      <recWeek>Friday</recWeek>
-      <recTime>2025-04-04T22:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>男女の友情は成立する？（いや、しないっ！！）</chName>
-      <channel>TOKYO_MX</channel>
-      <recWeek>Friday</recWeek>
-      <recTime>2025-04-04T22:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>真・侍伝 YAIBA</chName>
-      <channel>日本テレビ</channel>
-      <recWeek>Saturday</recWeek>
-      <recTime>2025-04-05T17:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>GUILTY GEAR STRIVE: DUAL RULERS</chName>
-      <channel>TOKYO_MX</channel>
-      <recWeek>Saturday</recWeek>
-      <recTime>2025-04-05T22:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>片田舎のおっさん、剣聖になる</chName>
-      <channel>テレビ朝日</channel>
-      <recWeek>Saturday</recWeek>
-      <recTime>2025-04-05T23:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>ニートくノ一となぜか同棲はじめました</chName>
+      <chName>異世界黙示録マイノグーラ ～破滅の文明で始める世界征服～</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2025-04-06T01:30:00</recTime>
+      <recTime>2025-07-06T22:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>俺は星間国家の悪徳領主！</chName>
-      <channel>テレビ朝日</channel>
+      <chName>ブサメンガチファイター</chName>
+      <channel>TOKYO_MX</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2025-04-06T02:00:00</recTime>
+      <recTime>2025-07-06T23:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>ひろがるスカイ！プリキュア</chName>
-      <channel>テレビ朝日</channel>
-      <recWeek>Sunday</recWeek>
-      <recTime>2025-04-06T08:30:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>ウマ娘　シンデレラグレイ</chName>
+      <chName>ガチアクタ</chName>
       <channel>TBS</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2025-04-06T16:30:00</recTime>
+      <recTime>2025-07-06T23:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>ウィッチウォッチ</chName>
-      <channel>TBS</channel>
-      <recWeek>Sunday</recWeek>
-      <recTime>2025-04-06T17:00:00</recTime>
-      <sycleTime>毎週</sycleTime>
-      <recSpan />
-      <recSpanStr>00:30:00</recSpanStr>
-    </Schedule>
-    <Schedule>
-      <chName>増田こうすけ劇場 ギャグマンガ日和GO</chName>
+      <chName>CITY THE ANIMATION</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Monday</recWeek>
-      <recTime>2025-04-07T21:54:00</recTime>
+      <recTime>2025-07-07T00:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>阿波連さんははかれない season2</chName>
+      <chName>ゲーセン少女と異文化交流</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Monday</recWeek>
-      <recTime>2025-04-07T22:00:00</recTime>
+      <recTime>2025-07-07T00:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -125,7 +53,7 @@
       <chName>月曜から夜更かし</chName>
       <channel>日本テレビ</channel>
       <recWeek>Monday</recWeek>
-      <recTime>2025-04-07T22:00:00</recTime>
+      <recTime>2025-07-07T22:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>01:00:00</recSpanStr>
@@ -134,25 +62,34 @@
       <chName>Summer Pockets</chName>
       <channel>TOKYO_MX</channel>
       <recWeek>Monday</recWeek>
-      <recTime>2025-04-07T23:30:00</recTime>
+      <recTime>2025-07-07T23:30:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>機動戦士Gundam GQuuuuuuX</chName>
-      <channel>日本テレビ</channel>
-      <recWeek>Wednesday</recWeek>
-      <recTime>2025-04-09T00:29:00</recTime>
+      <chName>カッコウの許嫁 Season2</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Tuesday</recWeek>
+      <recTime>2025-07-08T23:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>アポカリプスホテル</chName>
-      <channel>日本テレビ</channel>
+      <chName>まったく最近の探偵ときたら</chName>
+      <channel>TOKYO_MX</channel>
       <recWeek>Wednesday</recWeek>
-      <recTime>2025-04-09T01:34:00</recTime>
+      <recTime>2025-07-09T00:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>自動販売機に生まれ変わった俺は迷宮を彷徨う 2nd Season</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2025-07-09T22:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
@@ -161,16 +98,169 @@
       <chName>水曜日のダウンタウン</chName>
       <channel>TBS</channel>
       <recWeek>Wednesday</recWeek>
-      <recTime>2025-04-09T22:00:00</recTime>
+      <recTime>2025-07-09T22:00:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>01:00:00</recSpanStr>
     </Schedule>
     <Schedule>
-      <chName>戦隊大失格 2ndシーズン</chName>
+      <chName>地獄先生ぬ～べ～</chName>
+      <channel>テレビ朝日</channel>
+      <recWeek>Wednesday</recWeek>
+      <recTime>2025-07-09T23:15:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>01:00:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>転生したら第七王子だったので、気ままに魔術を極めます 第2期</chName>
+      <channel>テレビ東京</channel>
+      <recWeek>Thursday</recWeek>
+      <recTime>2025-07-10T00:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>帝乃三姉妹は案外、チョロい。</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Thursday</recWeek>
+      <recTime>2025-07-10T00:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>New PANTY &amp; STOCKING with GARTERBELT</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Thursday</recWeek>
+      <recTime>2025-07-10T01:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>Dr.STONE SCIENCE FUTURE(第2クール)</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Thursday</recWeek>
+      <recTime>2025-07-10T22:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ダンダダン 第2期</chName>
+      <channel>TBS</channel>
+      <recWeek>Friday</recWeek>
+      <recTime>2025-07-11T00:26:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>よふかしのうた Season2</chName>
+      <channel>フジテレビジョン</channel>
+      <recWeek>Friday</recWeek>
+      <recTime>2025-07-11T23:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>真・侍伝 YAIBA</chName>
+      <channel>日本テレビ</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2025-07-12T17:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>気絶勇者と暗殺姫</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2025-07-12T22:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>怪獣8号 第2期</chName>
+      <channel>テレビ東京</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2025-07-12T23:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>青春ブタ野郎はサンタクロースの夢を見ない</chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2025-07-12T23:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>SAND LAND： THE SERIES</chName>
+      <channel>NHK総合</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2025-07-12T23:45:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>その着せ替え人形は恋をする Season 2 </chName>
+      <channel>TOKYO_MX</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2025-07-13T00:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ひろがるスカイ！プリキュア</chName>
+      <channel>テレビ朝日</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2025-07-13T08:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ウィッチウォッチ</chName>
       <channel>TBS</channel>
       <recWeek>Sunday</recWeek>
-      <recTime>2025-04-13T23:30:00</recTime>
+      <recTime>2025-07-13T17:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ぷにるはかわいいスライム 第2期</chName>
+      <channel>テレビ東京</channel>
+      <recWeek>Sunday</recWeek>
+      <recTime>2025-07-13T17:30:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>SAKAMOTO DAYS SEASON 1 Part 2</chName>
+      <channel>テレビ東京</channel>
+      <recWeek>Tuesday</recWeek>
+      <recTime>2025-07-15T00:00:00</recTime>
+      <sycleTime>毎週</sycleTime>
+      <recSpan />
+      <recSpanStr>00:30:00</recSpanStr>
+    </Schedule>
+    <Schedule>
+      <chName>ぬきたし THE ANIMATION</chName>
+      <channel>ＡＴＸ</channel>
+      <recWeek>Saturday</recWeek>
+      <recTime>2025-07-19T02:05:00</recTime>
       <sycleTime>毎週</sycleTime>
       <recSpan />
       <recSpanStr>00:30:00</recSpanStr>
