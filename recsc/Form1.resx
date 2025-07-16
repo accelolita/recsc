@@ -282,6 +282,51 @@
   <metadata name="chName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="chNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chWeek.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="sycle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="recTimeAll.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="recSpan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dgvSc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 149</value>
+  </data>
+  <data name="dgvSc.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dgvSc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 565</value>
+  </data>
+  <data name="dgvSc.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Name" xml:space="preserve">
+    <value>dgvSc</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="chName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="chName.HeaderText" xml:space="preserve">
     <value>番組名</value>
   </data>
@@ -341,30 +386,6 @@
   </data>
   <data name="recSpan.Width" type="System.Int32, mscorlib">
     <value>60</value>
-  </data>
-  <data name="dgvSc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 149</value>
-  </data>
-  <data name="dgvSc.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="dgvSc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>706, 565</value>
-  </data>
-  <data name="dgvSc.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Name" xml:space="preserve">
-    <value>dgvSc</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="lbTest.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -481,7 +502,7 @@
     <value>ディスカバリー</value>
   </data>
   <data name="cbChannel.Items19" xml:space="preserve">
-    <value>TOKYOMX2</value>
+    <value>TOKYO_MX2</value>
   </data>
   <data name="cbChannel.Location" type="System.Drawing.Point, System.Drawing">
     <value>171, 124</value>
