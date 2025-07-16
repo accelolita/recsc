@@ -238,7 +238,8 @@
             resources.GetString("cbChannel.Items15"),
             resources.GetString("cbChannel.Items16"),
             resources.GetString("cbChannel.Items17"),
-            resources.GetString("cbChannel.Items18")});
+            resources.GetString("cbChannel.Items18"),
+            resources.GetString("cbChannel.Items19")});
             resources.ApplyResources(this.cbChannel, "cbChannel");
             this.cbChannel.Name = "cbChannel";
             // 

@@ -480,6 +480,9 @@
   <data name="cbChannel.Items18" xml:space="preserve">
     <value>ディスカバリー</value>
   </data>
+  <data name="cbChannel.Items19" xml:space="preserve">
+    <value>TOKYOMX2</value>
+  </data>
   <data name="cbChannel.Location" type="System.Drawing.Point, System.Drawing">
     <value>171, 124</value>
   </data>
