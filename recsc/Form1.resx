@@ -282,51 +282,6 @@
   <metadata name="chName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="chNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="chWeek.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="chTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="sycle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="recTimeAll.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="recSpan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="dgvSc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 149</value>
-  </data>
-  <data name="dgvSc.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="dgvSc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>706, 565</value>
-  </data>
-  <data name="dgvSc.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Name" xml:space="preserve">
-    <value>dgvSc</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <metadata name="chName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="chName.HeaderText" xml:space="preserve">
     <value>番組名</value>
   </data>
@@ -360,6 +315,9 @@
   <data name="chTime.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="chTime.Width" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
   <metadata name="sycle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -386,6 +344,30 @@
   </data>
   <data name="recSpan.Width" type="System.Int32, mscorlib">
     <value>60</value>
+  </data>
+  <data name="dgvSc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 149</value>
+  </data>
+  <data name="dgvSc.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dgvSc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 565</value>
+  </data>
+  <data name="dgvSc.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Name" xml:space="preserve">
+    <value>dgvSc</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="lbTest.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1339,6 +1321,12 @@
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;nfiRecsec.Name" xml:space="preserve">
+    <value>nfiRecsec</value>
+  </data>
+  <data name="&gt;&gt;nfiRecsec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;chName.Name" xml:space="preserve">
     <value>chName</value>
   </data>
@@ -1380,12 +1368,6 @@
   </data>
   <data name="&gt;&gt;recSpan.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nfiRecsec.Name" xml:space="preserve">
-    <value>nfiRecsec</value>
-  </data>
-  <data name="&gt;&gt;nfiRecsec.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

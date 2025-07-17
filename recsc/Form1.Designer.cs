@@ -38,13 +38,6 @@
             this.lbTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.dgvSc = new System.Windows.Forms.DataGridView();
-            this.chName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.chNum = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.chWeek = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.chTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sycle = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.recTimeAll = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.recSpan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lbTest = new System.Windows.Forms.Label();
             this.cbSycle = new System.Windows.Forms.ComboBox();
             this.cbChannel = new System.Windows.Forms.ComboBox();
@@ -56,6 +49,13 @@
             this.btnMute = new System.Windows.Forms.Button();
             this.lbNextTime = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.chName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.chNum = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.chWeek = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.chTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sycle = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.recTimeAll = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.recSpan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSc)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,83 +122,6 @@
             this.dgvSc.CurrentCellChanged += new System.EventHandler(this.dgvSc_CurrentCellChanged);
             this.dgvSc.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dgvSc_DataError);
             this.dgvSc.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.dgvSc_UserDeletingRow);
-            // 
-            // chName
-            // 
-            this.chName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.chName, "chName");
-            this.chName.Name = "chName";
-            this.chName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // chNum
-            // 
-            this.chNum.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.chNum, "chNum");
-            this.chNum.Items.AddRange(new object[] {
-            "NHK総合",
-            "Eテレ",
-            "tvk",
-            "日本テレビ",
-            "テレビ朝日",
-            "TBS",
-            "テレビ東京",
-            "フジテレビジョン",
-            "TOKYO_MX",
-            "BS日テレ",
-            "ＷＯＷＯＷプライム",
-            "ＷＯＷＯＷライブ",
-            "ＷＯＷＯＷシネマ",
-            "スターチャンネル１",
-            "スターチャンネル２",
-            "スターチャンネル３",
-            "ＢＳ１１イレブン",
-            "ＢＳスカパー",
-            "ＡＴＸ",
-            "ディスカバリー"});
-            this.chNum.Name = "chNum";
-            this.chNum.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // chWeek
-            // 
-            this.chWeek.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.chWeek, "chWeek");
-            this.chWeek.Name = "chWeek";
-            this.chWeek.ReadOnly = true;
-            this.chWeek.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // chTime
-            // 
-            this.chTime.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.chTime, "chTime");
-            this.chTime.Name = "chTime";
-            this.chTime.ReadOnly = true;
-            this.chTime.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // sycle
-            // 
-            this.sycle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.sycle, "sycle");
-            this.sycle.Items.AddRange(new object[] {
-            "一回のみ",
-            "毎日",
-            "毎週"});
-            this.sycle.Name = "sycle";
-            this.sycle.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.sycle.Sorted = true;
-            // 
-            // recTimeAll
-            // 
-            this.recTimeAll.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            resources.ApplyResources(this.recTimeAll, "recTimeAll");
-            this.recTimeAll.Name = "recTimeAll";
-            this.recTimeAll.ReadOnly = true;
-            this.recTimeAll.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // recSpan
-            // 
-            resources.ApplyResources(this.recSpan, "recSpan");
-            this.recSpan.Name = "recSpan";
-            this.recSpan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // lbTest
             // 
@@ -293,6 +216,84 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
+            // chName
+            // 
+            this.chName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.chName, "chName");
+            this.chName.Name = "chName";
+            this.chName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // chNum
+            // 
+            this.chNum.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.chNum, "chNum");
+            this.chNum.Items.AddRange(new object[] {
+            "NHK総合",
+            "Eテレ",
+            "tvk",
+            "日本テレビ",
+            "テレビ朝日",
+            "TBS",
+            "テレビ東京",
+            "フジテレビジョン",
+            "TOKYO_MX",
+            "BS日テレ",
+            "ＷＯＷＯＷプライム",
+            "ＷＯＷＯＷライブ",
+            "ＷＯＷＯＷシネマ",
+            "スターチャンネル１",
+            "スターチャンネル２",
+            "スターチャンネル３",
+            "ＢＳ１１イレブン",
+            "ＢＳスカパー",
+            "ＡＴＸ",
+            "ディスカバリー",
+            "TOKYO_MX2"});
+            this.chNum.Name = "chNum";
+            this.chNum.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // chWeek
+            // 
+            this.chWeek.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.chWeek, "chWeek");
+            this.chWeek.Name = "chWeek";
+            this.chWeek.ReadOnly = true;
+            this.chWeek.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // chTime
+            // 
+            this.chTime.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.chTime, "chTime");
+            this.chTime.Name = "chTime";
+            this.chTime.ReadOnly = true;
+            this.chTime.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // sycle
+            // 
+            this.sycle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.sycle, "sycle");
+            this.sycle.Items.AddRange(new object[] {
+            "一回のみ",
+            "毎日",
+            "毎週"});
+            this.sycle.Name = "sycle";
+            this.sycle.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.sycle.Sorted = true;
+            // 
+            // recTimeAll
+            // 
+            this.recTimeAll.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            resources.ApplyResources(this.recTimeAll, "recTimeAll");
+            this.recTimeAll.Name = "recTimeAll";
+            this.recTimeAll.ReadOnly = true;
+            this.recTimeAll.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // recSpan
+            // 
+            resources.ApplyResources(this.recSpan, "recSpan");
+            this.recSpan.Name = "recSpan";
+            this.recSpan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -345,6 +346,7 @@
         private System.Windows.Forms.Button roadButton;
         private System.Windows.Forms.Button btnMute;
         private System.Windows.Forms.Label lbNextTime;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn chName;
         private System.Windows.Forms.DataGridViewComboBoxColumn chNum;
         private System.Windows.Forms.DataGridViewTextBoxColumn chWeek;
@@ -352,7 +354,6 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn sycle;
         private System.Windows.Forms.DataGridViewTextBoxColumn recTimeAll;
         private System.Windows.Forms.DataGridViewTextBoxColumn recSpan;
-        private System.Windows.Forms.Label label1;
     }
 }
 
