@@ -127,7 +127,7 @@ namespace recsc
                 if (now.ToString()==item.recTime.AddSeconds(-30).ToString() && //十秒前      
                     item.startFlag)//起動したかどうか
                 {
-                    if ((int)item.channel<=9)//ch9以下　地デジ
+                    if ((int)item.channel<=9 || (int)item.channel >=1000)//ch9以下　地デジ
                     {
                         item.ptv = Process.Start(setting.tvtestPath,item.ToArgOption("/rch ", setting.recordPath));
                         tsText.Text += item.ptv.MainWindowTitle;
